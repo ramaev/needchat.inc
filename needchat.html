@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+	<html lang="ru">
+		<head>
+			<meta charset="utf-8" />
+		<title>Приложение NeedChat (обзор)</title>
+	</head>
+<body>
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+
+<!-- VK Widget -->
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", 203536687, {expanded: "1",tooltipButtonText: "Есть вопрос?"});
+</script>
+
+<!--Создаём таблицу контейнер, которой задаём следующее
+оформление:
+border="1" - рамка вокруг контейнера. Увеличив число, можно увеличить толщину рамки.
+align="center" - размещаем контейнер по центру экрана.
+rules="rows" - убираем двойную рамку.
+style="width:60%;" - добавляем стилевое свойства, делающее
+контейнер и весь сайт "резиновым".
+Сделать полноценный адаптивный дизайн, этим способом невозможно.-->
+<table
+border="3"
+align="center"
+rules="rows"
+style="width:100%;">
+<!--Создаём строку-->
+<tr>
+<!--Создаём ячейку строки-->
+<td>
+<!--ШАПКА САЙТА-->
+
+<!--В ячейке строки создаём ещё одну таблицу для шапки сайта.
+Оформление:
+border="1" - двойная рамка толщиной в 1px
+background="images/168.png" - картинка в шапке сайта, если требуется.
+Адрес картинки вы должны вставить свой.
+bgcolor="#7FFFD4" - фоновый цвет в шапке, если нет картинки.
+cellpadding="10" - отступ содержимого от рамки не менее 10px.
+style="width:100%; border-radius:5px;" - добавляем "резиновость"
+и закругляем уголки рамки-->
+<div class="fullscreen-bg">
+    <div class="overlay">
+        <h1>Приложение NeedChat<br>Обзор и скриншоты</h1>
+    </div>
+    <video loop="" muted="" autoplay="" poster="C:\Users\User\Downloads\free abstract video background 002 1920 x1080 25fps.mov" class="fullscreen-bg__video">
+       
+        <source src="C:\Users\User\Downloads\free abstract video background 002 1920 x1080 25fps.mov" type="video/webm">
+    </video>
+</div>
+<!--Закрываем таблицу-->
+
+
+<!--ОСНОВНОЙ КОНТЕНТ-->
+
+<!--В этой же ячейке контейнера создаём ещё одну таблицу
+для основного контента.
+Оформление как и в предыдущей таблице-->
+
+<table
+border="1"
+bgcolor="#e6e6fa"
+cellpadding="10"
+style="width:100%; border-radius:5px;">
+<!--Создаём строку-->
+<tr>
+<!--Создаём ячейку
+Оформление:
+rowspan="2" - объединяем две ячейки в одну.
+Число объединяемых ячеек по числу ячеек в сайдбаре.
+style="width:80%" - основной контент занимает 80% всей площади,
+оставшиеся 20% для сайдбара-->
+<td
+rowspan="2"
+style="width:80%">
+<h2>Страница</h2>
+<!--Начинаем абзац с красной строки-->
+<p style="text-indent:20px">
+Сайт в разработке, скоро сделаем.<br>
+Оформление сайта будет изменено в ближайшее время. Это HTML набросок, в ближайшее время мы сделаем CSC.</p>
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+<h1>Мы ы ВК<h1>
+<!-- VK Widget -->
+<div id="vk_groups"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 3}, 203536687);
+</script>
+<p style="text-indent:20px">Разработчик - Роман Рамаев.<br>
+<br>
+<h1>Биография разработчика:</h1> <br> 
+Я создаю сайты и приложения для этой компании. Сайт NeedChat создал тоже я.<br>
+Дизайн для сообщества тоже сделал я.<br> </p>
+<!--Закрываем ячейку-->
+</td>
+
+<!--САЙДБАР-->
+
+<!--Создаём ячейку сайдбара-->
+<td bgcolor="#e6e6fa">
+<h3>Меню сайта</h3>
+<!--Абзац для ссылки на страницу сайта-->
+<p>
+<!--Ссылка на страницу сайта-->
+<a href="https://vk.com/ndchat?w=wall-203536687_53">
+<!--Картинка маркера перед названием страницы-->
+<img src="unnamed.jpg"  width="10" height= "10"> 
+<!--Название страницы
+style="margin-left:5px;" - отступ названия от маркера-->
+<span style="margin-left:5px;">Скачать</span></a>
+<!--Закрываем абзац-->
+</p>
+<p>
+<a href="">
+<img src="http://trueimages.ru/img/31/ab/4dcb087c2ae4305edcd15171696.jpg">
+<span style="margin-left:5px;">Страница 1</span;></a>
+</p>
+<p>
+<a href="">
+<img src="http://trueimages.ru/img/31/ab/4dcb087c2ae4305edcd15171696.jpg">
+<span style="margin-left:5px;">Страница 2</span></a>
+</p>
+<!--Закрываем строку Меню-->
+</td>
+</tr>
+<!--Создаём строку с дополнительной информацией-->
+<tr>
+<!--Ячейка с дополнительной информацией-->
+<td
+bgcolor="#e6e6fa"
+align="center">
+<h3>Общая информация</h3>
+<p>Текст общей информации или реклама</p>
+<!--Закрываем ячейку с общей информацией
+и таблицу основного контента-->
+</td>
+</tr>
+</table>
+
+<!--ПОДВАЛ-->
+
+<!--Создаём таблицу подвала-->
+<table
+border="1"
+bgcolor="#7FFFD4"
+height="100"
+cellpadding="10"
+style="width:100%; border-radius:5px;">
+<!--Создаём строку.-->
+<tr>
+<!--Создаём столбец-->
+<th>
+<h3><a href="https://vk.com/ndchat?w=wall-203536687_53" target="_blank">Скачать наше приложение</a></h3>
+<!--Закрываем таблицу подвала. При желании в подвале можно
+сделать несколько строк и столбцов-->
+</th>
+</tr>
+</table>
+<!--Закрываем таблицу контейнера-->
+</td>
+</tr>
+</table>
+</body>
+</html>
